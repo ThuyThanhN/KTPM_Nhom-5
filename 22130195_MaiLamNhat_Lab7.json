@@ -1,0 +1,817 @@
+{
+  "RegCustomer": [
+    {
+      "ID": "RegCus_01",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "5000"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser1@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-success",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-success",
+          "value": "glob:Your account has been successfully created."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_02",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "shop@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:This email is already used."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_03",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "abc@"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Please enter a valid email address."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_04",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.error",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.error",
+          "value": "glob:This field is required"
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_05",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser2@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test12345"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Passwords do not match."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_06",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser3@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "abc"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "abc"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Password must be at least 6 characters long"
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_07",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser4@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen@123"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Name cannot contain special characters."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_08",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser5@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Please select your country."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_09",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser6@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_agreeTerms",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:You must agree to the terms to register."
+        }
+      ]
+    },
+    {
+      "ID": "RegCus_10",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/register",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_email",
+          "value": "newuser7@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_first",
+          "value": "Test1234"
+        },
+        {
+          "command": "type",
+          "target": "id=sylius_shop_customer_registration_user_plainPassword_second",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=sylius_shop_customer_registration_submit",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-success",
+          "value": "5000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-success",
+          "value": "glob:Your account has been successfully created."
+        }
+      ]
+    }
+  ],
+    "CustomerManagement": [
+    {
+      "ID": "AddCus_01",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/login",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_username",
+          "value": "admin@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=_password",
+          "value": "Admin123"
+        },
+        {
+          "command": "click",
+          "target": "id=login-button",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "link=Customers",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=create-customer-button",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_username",
+          "value": "newcustomer1@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=_firstName",
+          "value": "Nguyen"
+        },
+        {
+          "command": "type",
+          "target": "id=_lastName",
+          "value": "An"
+        },
+        {
+          "command": "type",
+          "target": "id=_password",
+          "value": "Test1234"
+        },
+        {
+          "command": "click",
+          "target": "id=create-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-success",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-success",
+          "value": "glob:Customer has been successfully created."
+        }
+      ]
+    },
+    {
+      "ID": "AddCus_02",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers/create",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=create-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.error",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.error",
+          "value": "glob:This field is required"
+        }
+      ]
+    },
+    {
+      "ID": "AddCus_03",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers/create",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_username",
+          "value": "existingcustomer@example.com"
+        },
+        {
+          "command": "click",
+          "target": "id=create-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:This email is already used."
+        }
+      ]
+    },
+    {
+      "ID": "AddCus_04",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers/create",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_username",
+          "value": "abc@"
+        },
+        {
+          "command": "click",
+          "target": "id=create-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Please enter a valid email address."
+        }
+      ]
+    },
+    {
+      "ID": "AddCus_05",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers/create",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_username",
+          "value": "newcustomer2@example.com"
+        },
+        {
+          "command": "type",
+          "target": "id=_password",
+          "value": "abc"
+        },
+        {
+          "command": "click",
+          "target": "id=create-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-danger",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-danger",
+          "value": "glob:Password must be at least 6 characters long."
+        }
+      ]
+    },
+    {
+      "ID": "EditCus_06",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "xpath=(//a[contains(@href,'/edit')])[1]",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=_firstName",
+          "value": "NguyenUpdated"
+        },
+        {
+          "command": "click",
+          "target": "id=update-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-success",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-success",
+          "value": "glob:Customer has been successfully updated."
+        }
+      ]
+    },
+    {
+      "ID": "EditCus_07",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "xpath=(//a[contains(@href,'/edit')])[1]",
+          "value": ""
+        },
+        {
+          "command": "clear",
+          "target": "id=_firstName",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=update-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.error",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.error",
+          "value": "glob:This field cannot be blank."
+        }
+      ]
+    },
+    {
+      "ID": "ViewCus_08",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "xpath=(//a[contains(@href,'/view')])[1]",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.customer-details",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.customer-details",
+          "value": "glob:Email"
+        }
+      ]
+    },
+    {
+      "ID": "DeleteCus_09",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "xpath=(//button[contains(@class,'delete-customer')])[1]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=confirm-delete",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.alert-success",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.alert-success",
+          "value": "glob:Customer has been successfully deleted."
+        }
+      ]
+    },
+    {
+      "ID": "SearchCus_10",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://elesto.sylius.com/en_US/customers",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=search-keyword",
+          "value": "Nguyen"
+        },
+        {
+          "command": "click",
+          "target": "id=search-button",
+          "value": ""
+        },
+        {
+          "command": "waitForElementPresent",
+          "target": "css=.customer-list",
+          "value": "1000"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.customer-list",
+          "value": "glob:Nguyen"
+        }
+      ]
+    }
+  ]
+}
+
