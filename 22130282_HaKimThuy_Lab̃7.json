@@ -1,84 +1,968 @@
-ROLE_MGT_Create_01:  [{"command":"open","target":"https://elesto.sylius.com/en_US/","value":""},{"command":"click","target":"xpath=//button[@type='button']","value":""},{"command":"click","target":"link=As administrator","value":""},{"command":"click","target":"xpath=//button[@type='submit']","value":""},{"command":"click","target":"link=Administration","value":""},{"command":"click","target":"link=Roles","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"editor"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Editor"},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=//form[@id='sylius_plus_rbac_role']/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/span[2]/input","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText","target":"xpath=//h4[@class='alert-heading']","value":"Success"},{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"assertElementPresent","target":"xpath=//tr[contains(@class,'item')]//td[normalize-space()='Editor']","value":"editor"}]
+{
+ROLE_MGT_Create_01:[
+{
+"command":"open",
+"target":"https://elesto.sylius.com/en_US/",
+"value":""
+},
+{
+"command":"click",
+"target":"xpath=//button[@type='button']",
+"value":""
+},
+{
+"command":"click",
+"target":"link=As administrator",
+"value":""
+},
+{
+"command":"click",
+"target":"xpath=//button[@type='submit']",
+"value":""
+},
+{
+"command":"click",
+"target":"link=Administration",
+"value":""
+},
+{
+"command":"click",
+"target":"link=Roles",
+"value":""
+},
+{
+"command":"click",
+"target":"link=Create",
+"value":""
+},{
+"command":"click",
+"target":"id=sylius_plus_rbac_role_code",
+"value":""
+},{
+"command":"type",
+"target":"id=sylius_plus_rbac_role_code",
+"value":"editor"
+},{
+"command":"click",
+"target":"id=sylius_plus_rbac_role_translations_en_US_name",
+"value":""
+},{
+"command":"click",
+"target":"id=sylius_plus_rbac_role_translations_en_US_name",
+"value":""
+},{
+"command":"type",
+"target":"id=sylius_plus_rbac_role_translations_en_US_name",
+"value":"Editor"
+},{
+"command":"click",
+"target":"xpath=//input[@type='checkbox']",
+"value":""
+},
+{
+"command":"click",
+"target":"xpath=//form[@id='sylius_plus_rbac_role']/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/span[2]/input",
+"value":""
+},
+{
+"command":"click",
+"target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText","target":"xpath=//h4[@class='alert-heading']",
+"value":"Success"},
+{
+"command":"open ",
+"target":"https://elesto.sylius.com/admin/roles/",
+"value":""
+},
+{
+"command":"assertElementPresent",
+"target":"xpath=//tr[contains(@class,'item')]//td[normalize-space()='Editor']",
+"value":"editor"}
+]
 
 
-ROLE_MGT_Create_02: 
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_03: 
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"editor2"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Editor 2"},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[contains(@class,'alert')]","value":"Error"}]
-
-
-ROLE_MGT_Create_04:
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"editor"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Editor"},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_05: 
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"@@@@"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Editor 3"},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_06:
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Editor 3"},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_07: 
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":" editor "},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":" Editor "},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_08:
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"Editor"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":" Editor "},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-ROLE_MGT_Create_09:
-[{"command":"open ","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"link=Create","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_code","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_code","value":"123456"},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":" Editor "},{"command":"click","target":"xpath=//input[@type='checkbox']","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-title']","value":"Error"}]
-
-
-
-ROLE_MGT_Edit_10:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Editor'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Content Manager"},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Success"}]
-
-
-ROLE_MGT_Edit_11:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Marketing Manager'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":"Content Manager"},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
-
-
-ROLE_MGT_Edit_12: 
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
-
-
-
-ROLE_MGT_Edit_13:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":" Content Manager "},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
-
-
-ROLE_MGT_Edit_14:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":"Content Manager@#%"},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
-
-
-ROLE_MGT_Edit_15:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edittor'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"link=Uncheck all","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
-
-
-ROLE_MGT_Edit_16:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]","value":""},{"command":"click","target":"xpath=//div[@id='translation-translations-en_US']/div","value":""},{"command":"type","target":"id=sylius_plus_rbac_role_translations_en_US_name","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Error"}]
+"ROLE_MGT_Create_02": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
 
 
 
-ROLE_MGT_Delete_17:
-[{"command":"open","target":"https://elesto.sylius.com/admin/roles/","value":""},{"command":"click","target":"xpath=(.//*[normalize-space(text()) and normalize-space(.)='Editor'])[1]/following::button[1]","value":""},{"command":"click","target":"xpath=//div[@id='delete-modal-12']/div/div/div[2]/form/button[2]","value":""},{"command":"verifyText ","target":"xpath=//h4[@class='alert-heading']","value":"Success"}]
+"ROLE_MGT_Create_03": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "editor2"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Editor 2"
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[contains(@class,'alert')]",
+    "value": "Error"
+  }
+]
 
 
-PASS_Change_01:
-[{"command":"open","target":"https://elesto.sylius.com/en_US/","value":""},{"command":"click","target":"id=login-page-button","value":""},{"command":"click","target":"id=login-button","value":""},{"command":"click","target":"id=my-account-button","value":""},{"command":"click","target":"link=Change password","value":""},{"command":"click","target":"id=sylius_shop_change_password_currentPassword","value":""},{"command":"type","target":"id=sylius_shop_change_password_currentPassword","value":"sylius"},{"command":"click","target":"id=live-2667417163-0","value":""},{"command":"type","target":"id=sylius_shop_change_password_newPassword_first","value":"abc123"},{"command":"click","target":"id=sylius_shop_change_password_newPassword_second","value":""},{"command":"type","target":"id=sylius_shop_change_password_newPassword_second","value":"abc123"},{"command":"click","target":"xpath=//div","value":""},{"command":"click","target":"id=save-changes","value":""},{"command":"verifyText","target":"xpath=//div[@class='fw-bold']","value":"Success"}]
+
+"ROLE_MGT_Create_04": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "editor"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Editor"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
 
 
-PASS_Change_02:
-[{"command":"open","target":"https://elesto.sylius.com/en_US/account/change-password","value":""},{"command":"type","target":"id=sylius_shop_change_password_currentPassword","value":"wrongpass"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_first","value":"abc123"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_second","value":"abc123"},{"command":"click","target":"id=save-changes","value":""},{"command":"verifyText","target":"xpath=//div[@class='invalid-feedback']","value":"Provided password is different than the current one."}]
+"ROLE_MGT_Create_05": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "@@@@"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Editor 3"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
 
 
-PASS_Change_03:
-[{"command":"open","target":"https://elesto.sylius.com/en_US/account/change-password","value":""},{"command":"type","target":"id=sylius_shop_change_password_currentPassword","value":"abc123"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_first","value":"abc124"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_second","value":"abc125"},{"command":"click","target":"xpath=//div","value":""},{"command":"click","target":"id=save-changes","value":""},{"command":"verifyText","target":"xpath=//div[@class='invalid-feedback']","value":"The entered passwords don't match"}]
 
 
-PASS_Change_04:
-[{"command":"open","target":"https://elesto.sylius.com/en_US/account/change-password","value":""},{"command":"type","target":"id=sylius_shop_change_password_currentPassword","value":"abc123"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_first","value":"abc123"},{"command":"type","target":"id=sylius_shop_change_password_newPassword_second","value":"abc123"},{"command":"click","target":"xpath=//div","value":""},{"command":"click","target":"id=save-changes","value":""},{"command":"verifyText","target":"xpath=//div[@class='fw-bold']","value":"Error"}]
+"ROLE_MGT_Create_06": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Editor 3"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Create_07": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": " editor "
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": " Editor "
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Create_08": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "Editor"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": " Editor "
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Create_09": [
+  {
+    "command": "open ",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Create",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_code",
+    "value": "123456"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": " Editor "
+  },
+  {
+    "command": "click",
+    "target": "xpath=//input[@type='checkbox']",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-title']",
+    "value": "Error"
+  }
+]
+
+
+
+
+"ROLE_MGT_Edit_10": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Editor'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Content Manager"
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Success"
+  }
+]
+
+
+
+"ROLE_MGT_Edit_11": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Marketing Manager'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": "Content Manager"
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Edit_12": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+
+"ROLE_MGT_Edit_13": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": " Content Manager "
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Edit_14": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": "Content Manager@#%"
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Edit_15": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edittor'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Uncheck all",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+"ROLE_MGT_Edit_16": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Content Manager'])[1]/following::*[name()='svg'][1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='translation-translations-en_US']/div",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_plus_rbac_role_translations_en_US_name",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Error"
+  }
+]
+
+
+
+
+"ROLE_MGT_Delete_17": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/admin/roles/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Editor'])[1]/following::button[1]",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='delete-modal-12']/div/div/div[2]/form/button[2]",
+    "value": ""
+  },
+  {
+    "command": "verifyText ",
+    "target": "xpath=//h4[@class='alert-heading']",
+    "value": "Success"
+  }
+]
+
+
+
+"PASS_Change_01": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/en_US/",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=login-page-button",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=login-button",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=my-account-button",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "link=Change password",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_shop_change_password_currentPassword",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_currentPassword",
+    "value": "sylius"
+  },
+  {
+    "command": "click",
+    "target": "id=live-2667417163-0",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_first",
+    "value": "abc123"
+  },
+  {
+    "command": "click",
+    "target": "id=sylius_shop_change_password_newPassword_second",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_second",
+    "value": "abc123"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=save-changes",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//div[@class='fw-bold']",
+    "value": "Success"
+  }
+]
+
+
+
+"PASS_Change_02": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/en_US/account/change-password",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_currentPassword",
+    "value": "wrongpass"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_first",
+    "value": "abc123"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_second",
+    "value": "abc123"
+  },
+  {
+    "command": "click",
+    "target": "id=save-changes",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//div[@class='invalid-feedback']",
+    "value": "Provided password is different than the current one."
+  }
+]
+
+
+
+"PASS_Change_03": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/en_US/account/change-password",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_currentPassword",
+    "value": "abc123"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_first",
+    "value": "abc124"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_second",
+    "value": "abc125"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=save-changes",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//div[@class='invalid-feedback']",
+    "value": "The entered passwords don't match"
+  }
+]
+
+
+
+"PASS_Change_04": [
+  {
+    "command": "open",
+    "target": "https://elesto.sylius.com/en_US/account/change-password",
+    "value": ""
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_currentPassword",
+    "value": "abc123"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_first",
+    "value": "abc123"
+  },
+  {
+    "command": "type",
+    "target": "id=sylius_shop_change_password_newPassword_second",
+    "value": "abc123"
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "id=save-changes",
+    "value": ""
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//div[@class='fw-bold']",
+    "value": "Error"
+  }
+]
+}
