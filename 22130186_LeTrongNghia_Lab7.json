@@ -1,0 +1,1256 @@
+{
+    "USER_CART_Checkout_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "id=logout-button",
+            "value": "1000"
+        },
+        {
+            "command": "verifyText",
+            "target": "id=logout-button",
+            "value": "glob:*Logout*"
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[aria-label=\"cart button\"]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.fw-black.align-top.py-3",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.fw-black.align-top.py-3",
+            "value": "1"
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.text-end",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.text-end",
+            "value": "€50.94"
+        },
+        {
+            "command": "click",
+            "target": "css=a[href=\"/en_US/checkout/\"]",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "css=[data-model=\"addressId\"]",
+            "value": "value=8"
+        },
+        {
+            "command": "click",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=label[for=\"sylius_shop_checkout_select_shipping_shipments_0_method_0\"]",
+            "value": "1000"
+        },
+        {
+            "command": "click",
+            "target": "css=label[for=\"sylius_shop_checkout_select_shipping_shipments_0_method_0\"]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": "1000"
+        },
+        {
+            "command": "click",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.form-check-label.fw-medium.text-b2b-gray-900.fs-7",
+            "value": "1000"
+        },
+        {
+            "command": "click",
+            "target": "css=.form-check-label.fw-medium.text-b2b-gray-900.fs-7",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": "1000"
+        },
+        {
+            "command": "click",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.btn.b2b-btn-green.btn-icon.w-100.rounded-8",
+            "value": "1000"
+        },
+        {
+            "command": "click",
+            "target": "css=.btn.b2b-btn-green.btn-icon.w-100.rounded-8",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.fs-1.text-white.fw-black",
+            "value": "1000"
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.fs-1.text-white.fw-black",
+            "value": "glob:*Thank you for your order!*"
+        }
+    ],
+    "USER_CART_Checkout_02": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[aria-label=\"cart button\"]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.offcanvas-body.py-0.px-\\[32px\\].flex-grow-0",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.offcanvas-body.py-0.px-\\[32px\\].flex-grow-0",
+            "value": "Your cart is empty."
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.text-end",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.text-end",
+            "value": "€0.00"
+        },
+        {
+            "command": "click",
+            "target": "css=a[href=\"/en_US/checkout/\"]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.alert.alert-info",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.alert.alert-info",
+            "value": "glob:*Your cart is empty*"
+        }
+    ],
+    "USER_CART_Checkout_03": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[aria-label=\"cart button\"]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Proceed to checkout",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_company",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_company",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_street",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_street",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_countryCode",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_countryCode",
+            "value": "label=Select"
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_city",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_city",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_postcode",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_postcode",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.invalid-feedback.d-block",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//input[contains(@id, 'company')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Please enter company.*"
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//input[contains(@id, 'street')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Please enter street.*"
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//select[contains(@id, 'countryCode')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Please select country.*"
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//input[contains(@id, 'city')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Please enter city.*"
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//input[contains(@id, 'postcode')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Please enter postcode.*"
+        }
+    ],
+    "USER_CART_Checkout_04": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[aria-label=\"cart button\"]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=a[href=\"/en_US/checkout/\"]",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "css=[data-model=\"addressId\"]",
+            "value": "value=8"
+        },
+        {
+            "command": "click",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_phoneNumber",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_shop_checkout_address_shippingAddress_phoneNumber",
+            "value": "abc@@333##"
+        },
+        {
+            "command": "click",
+            "target": "css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100",
+            "value": ""
+        },
+        {
+            "command": "verifyLocation",
+            "target": "https://elesto.sylius.com/en_US/checkout/address",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]",
+            "value": "glob:*Invalid phone number.*"
+        }
+    ],
+    "USER_CART_Checkout_05": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.06'])[1]/following::span[2]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[aria-label=\"cart button\"]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "css=.text-end",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//div[contains(text(),'Subtotal:')]/following-sibling::div",
+            "value": "glob:*101.00*"
+        }
+    ],
+    "ADMIN_ORDER_View_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Number')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Date')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Customer')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Channel')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'State')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Payment state')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Shipping state')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Total')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Currency')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//th[contains(.,'Action')]",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.accordion-button",
+            "value": "glob:*Filters*"
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.card-footer",
+            "value": "glob:*Showing*to*entries*"
+        }
+    ],
+    "ADMIN_ORDER_View_02": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(//a[@data-bs-title='Show'])[1]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Items')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Summary')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Payments')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Shipments')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Details')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//strong[contains(.,'Order date:')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//div[@class='card-title'][contains(.,'Customer')]",
+            "value": ""
+        }
+    ],
+    "ADMIN_ORDER_Filter_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=.accordion-button",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=criteria_state",
+            "value": "label=New"
+        },
+        {
+            "command": "type",
+            "target": "id=criteria_date_from_date",
+            "value": "2025-01-01"
+        },
+        {
+            "command": "type",
+            "target": "id=criteria_date_to_date",
+            "value": "2025-11-11"
+        },
+        {
+            "command": "clickAndWait",
+            "target": "css=button[type='submit'].btn-primary",
+            "value": ""
+        },
+        {
+            "command": "verifyLocation",
+            "target": "glob:*criteria*state*",
+            "value": ""
+        },
+        {
+            "command": "verifyValue",
+            "target": "id=criteria_state",
+            "value": "new"
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "xpath=//span[@class='badge bg-blue-lt'][contains(.,'New')]",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.card-footer",
+            "value": "glob:*Showing*of*entries*"
+        }
+    ],
+    "ADMIN_ORDER_Sort_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "clickAndWait",
+            "target": "link=Total",
+            "value": ""
+        },
+        {
+            "command": "verifyLocation",
+            "target": "glob:*sorting*total*",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "css=th.sorted.sylius-table-column-total",
+            "value": ""
+        }
+    ],
+    "ADMIN_ORDER_Edit_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(//a[@data-bs-title='Show'])[1]",
+            "value": ""
+        },
+        {
+            "command": "clickAndWait",
+            "target": "link=Edit addresses",
+            "value": ""
+        },
+        {
+            "command": "runScript",
+            "target": "document.getElementById('sylius_admin_order_billingAddress_street').value = ''",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_billingAddress_street",
+            "value": "246 Vo Van Ngan, Ho Chi Minh City"
+        },
+        {
+            "command": "click",
+            "target": "css=.card-header",
+            "value": ""
+        },
+        {
+            "command": "fireEvent",
+            "target": "id=sylius_admin_order_billingAddress_street",
+            "value": "change"
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Update')]",
+            "value": ""
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "css=.alert-success",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.alert-description",
+            "value": "Order has been successfully updated."
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//address",
+            "value": "glob:*246 Vo Van Ngan*"
+        }
+    ],
+    "ADMIN_ORDER_Create_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Create",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "pause",
+            "target": "2000",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "${KEY_DOWN}"
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "${KEY_ENTER}"
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Next')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='items']//button[contains(.,'Add')]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "xpath=//input[contains(@id,'quantity')]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//input[contains(@id,'quantity')]",
+            "value": "1"
+        },
+        {
+            "command": "type",
+            "target": "xpath=//select[contains(@id,'variant')]/following-sibling::div//input",
+            "value": "QIX PowerMax model 4D5E6F"
+        },
+        {
+            "command": "pause",
+            "target": "2000",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_items_0_variant-ts-control",
+            "value": "${KEY_ENTER}"
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Create')]",
+            "value": "change"
+        },
+        {
+            "command": "verifyElementPresent",
+            "target": "css=.alert-danger",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.alert-title",
+            "value": "Error"
+        },
+        {
+            "command": "verifyText",
+            "target": "css=.text-secondary",
+            "value": "This form contains errors."
+        },
+        {
+            "command": "verifyText",
+            "target": "xpath=//div[contains(@class,'invalid-feedback')]",
+            "value": "glob:*Please enter*"
+        }
+    ],
+    "ADMIN_ORDER_Create_02": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/login",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=_username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_username",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "id=_password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=_password",
+            "value": "sylius"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Login')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//span[@class='nav-link-title'][contains(.,'Sales')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Orders",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Create",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "shop@example.com"
+        },
+        {
+            "command": "pause",
+            "target": "2000",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "${KEY_DOWN}"
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control",
+            "value": "${KEY_ENTER}"
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Next')]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='items']//button[contains(.,'Add')]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "xpath=//input[contains(@id,'quantity')]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//input[contains(@id,'quantity')]",
+            "value": "1"
+        },
+        {
+            "command": "type",
+            "target": "xpath=//select[contains(@id,'variant')]/following-sibling::div//input",
+            "value": "QIX PowerMax model 4D5E6F"
+        },
+        {
+            "command": "pause",
+            "target": "2000",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "id=sylius_admin_order_creation_new_order_items_0_variant-ts-control",
+            "value": "${KEY_ENTER}"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[contains(@id,'billingAddress_firstName')]",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "xpath=//input[contains(@id,'billingAddress_firstName')]",
+            "value": "Orlo"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[contains(@id,'billingAddress_lastName')]",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "xpath=//input[contains(@id,'billingAddress_lastName')]",
+            "value": "Jenkins"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[contains(@id,'billingAddress_street')]",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "xpath=//input[contains(@id,'billingAddress_street')]",
+            "value": "948 Alva Mills Apt. 071"
+        },
+        {
+            "command": "select",
+            "target": "xpath=//select[contains(@id,'billingAddress_countryCode')]",
+            "value": "label=Poland"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[contains(@id,'billingAddress_city')]",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "xpath=//input[contains(@id,'billingAddress_city')]",
+            "value": "West Daniellaberg"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[contains(@id,'billingAddress_postcode')]",
+            "value": ""
+        },
+        {
+            "command": "sendKeys",
+            "target": "xpath=//input[contains(@id,'billingAddress_postcode')]",
+            "value": "13058"
+        },
+        {
+            "command": "click",
+            "target": "css=body",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "3000",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[contains(@id,'shipments')]//button[contains(.,'Add')]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "xpath=//select[contains(@id,'shipments')]",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "xpath=//select[contains(@id,'shipments')]",
+            "value": "index=1"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[contains(@id,'payments')]//button[contains(.,'Add')]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementPresent",
+            "target": "xpath=//select[contains(@id,'payments')]",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "xpath=//select[contains(@id,'payments')]",
+            "value": "label=Cash on Delivery"
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Create')]",
+            "value": ""
+        },
+        {
+            "command": "verifyLocation",
+            "target": "glob:*/preview",
+            "value": ""
+        },
+        {
+            "command": "clickAndWait",
+            "target": "xpath=//button[contains(.,'Confirm')]",
+            "value": ""
+        },
+        {
+            "command": "verifyText",
+            "target": "css=h1",
+            "value": "glob:*Success*"
+        }
+    ]
+}

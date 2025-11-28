@@ -1,0 +1,947 @@
+{
+  "INV_MGT_Create_01": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    { "command": "click", "target": "link=Create", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": "warsaw_wh_01"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "Warsaw Central Warehouse"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "16"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_street",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_street",
+      "value": "Aleje Jerozolimskie 123"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_city",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_city",
+      "value": "Warsaw"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_postcode",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_postcode",
+      "value": "00-001"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_countryCode",
+      "value": ""
+    },
+    {
+      "command": "select",
+      "target": "id=sylius_multi_source_inventory_source_address_countryCode",
+      "value": "label=Poland"
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Create_02": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    { "command": "click", "target": "link=Create", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "10"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_1",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_street",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_street",
+      "value": "Alexanderplatz 7"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_city",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_city",
+      "value": "Berlin"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//form[@id='sylius_multi_source_inventory_source']/div/div/div[2]/div/div[2]/div/div[3]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_postcode",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_address_postcode",
+      "value": "10178"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_address_countryCode",
+      "value": ""
+    },
+    {
+      "command": "select",
+      "target": "id=sylius_multi_source_inventory_source_address_countryCode",
+      "value": "label=United States"
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Create_03": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    { "command": "click", "target": "link=Create", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": "warsaw_wh_01"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "Warsaw Central Warehouse"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "10"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Create_04": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    { "command": "click", "target": "link=Create", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": "toronto_warehouse_north"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "Toronto North Warehouse"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "runScript",
+      "target": "document.getElementById('sylius_multi_source_inventory_source_priority').value='-20';",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Create_05": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Inventory sources'])[2]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": "south_warehouse"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "South Warehouse"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "18"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_1",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Create_06": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    { "command": "click", "target": "link=Create", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_code",
+      "value": "SRC-INV@#99"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "Primary Inventory Source"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "10"
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Edit_01": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Elesto US'])[3]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Update'])[1]/following::div[1]",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": "Warsaw Storage Facility"
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": "21"
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit Inventory source'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Edit_02": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Elesto US'])[3]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    { "command": "click", "target": "xpath=//div", "value": "" },
+    {
+      "command": "type",
+      "target": "id=sylius_multi_source_inventory_source_name",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_1",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Edit_03": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Elesto US'])[2]/following::a[1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_priority",
+      "value": ""
+    },
+    {
+      "command": "runScript",
+      "target": "document.getElementById('sylius_multi_source_inventory_source_priority').value='-12';",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Edit_04": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Elesto US'])[2]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_0",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_multi_source_inventory_source_channels_1",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit Inventory source'])[1]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Delete_01": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Manage stock'])[1]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='delete-modal-10']/div/div/div[2]/form/button[2]",
+      "value": ""
+    }
+  ],
+  "INV_MGT_Delete_02": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "value": ""
+    },
+    { "command": "click", "target": "link=As administrator", "value": "" },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/admin/",
+      "value": ""
+    },
+    { "command": "click", "target": "link=Inventory", "value": "" },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Manage stock'])[1]/following::*[name()='svg'][1]",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='delete-modal-14']/div/div/div[2]/form/button",
+      "value": ""
+    }
+  ],
+  "EDIT_Profile_01": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "storeElementPresent",
+      "target": "id=logout-button",
+      "value": "isLoggedIn"
+    },
+    { "command": "if", "target": "${isLoggedIn} == false", "value": "" },
+    { "command": "click", "target": "id=login-page-button", "value": "" },
+    { "command": "click", "target": "id=login-button", "value": "" },
+    { "command": "endIf", "target": "", "value": "" },
+    { "command": "click", "target": "id=my-account-button", "value": "" },
+    { "command": "click", "target": "link=Edit", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_firstName",
+      "value": ""
+    },
+    {
+      "command": "runScript",
+      "target": "document.getElementById('sylius_shop_customer_profile_firstName').value='Thuy';",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_lastName",
+      "value": ""
+    },
+    {
+      "command": "runScript",
+      "target": "document.getElementById('sylius_shop_customer_profile_lastName').value='Thanh';",
+      "value": ""
+    },
+    { "command": "click", "target": "id=save-changes", "value": "" }
+  ],
+  "EDIT_Profile_02": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "storeElementPresent",
+      "target": "id=logout-button",
+      "value": "isLoggedIn"
+    },
+    { "command": "if", "target": "${isLoggedIn} == false", "value": "" },
+    { "command": "click", "target": "id=login-page-button", "value": "" },
+    { "command": "click", "target": "id=login-button", "value": "" },
+    { "command": "endIf", "target": "", "value": "" },
+    { "command": "click", "target": "id=my-account-button", "value": "" },
+    { "command": "click", "target": "link=Edit", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_firstName",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_shop_customer_profile_firstName",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_lastName",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_shop_customer_profile_lastName",
+      "value": ""
+    },
+    { "command": "click", "target": "id=save-changes", "value": "" }
+  ],
+  "EDIT_Profile_03": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "storeElementPresent",
+      "target": "id=logout-button",
+      "value": "isLoggedIn"
+    },
+    { "command": "if", "target": "${isLoggedIn} == false", "value": "" },
+    { "command": "click", "target": "id=login-page-button", "value": "" },
+    { "command": "click", "target": "id=login-button", "value": "" },
+    { "command": "endIf", "target": "", "value": "" },
+    { "command": "click", "target": "id=my-account-button", "value": "" },
+    { "command": "click", "target": "link=Edit", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_email",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=sylius_shop_customer_profile_email",
+      "value": "john 17@gmail.com"
+    },
+    { "command": "click", "target": "id=save-changes", "value": "" }
+  ],
+  "EDIT_Profile_04": [
+    {
+      "command": "open",
+      "target": "https://elesto.sylius.com/en_US/",
+      "value": ""
+    },
+    {
+      "command": "storeElementPresent",
+      "target": "id=logout-button",
+      "value": "isLoggedIn"
+    },
+    { "command": "if", "target": "${isLoggedIn} == false", "value": "" },
+    { "command": "click", "target": "id=login-page-button", "value": "" },
+    { "command": "click", "target": "id=login-button", "value": "" },
+    { "command": "endIf", "target": "", "value": "" },
+    { "command": "click", "target": "id=my-account-button", "value": "" },
+    { "command": "click", "target": "link=Edit", "value": "" },
+    {
+      "command": "click",
+      "target": "id=sylius_shop_customer_profile_firstName",
+      "value": ""
+    },
+    {
+      "command": "runScript",
+      "target": "document.getElementById('sylius_shop_customer_profile_firstName').value='NguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnhNguyenThiMinhAnh'",
+      "value": ""
+    },
+    { "command": "click", "target": "id=save-changes", "value": "" }
+  ]
+}
