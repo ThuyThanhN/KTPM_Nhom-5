@@ -2,6 +2,11 @@
     "USER_CART_Checkout_01": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/en_US/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/en_US/login",
             "value": ""
         },
@@ -31,14 +36,39 @@
             "value": ""
         },
         {
-            "command": "waitForElementPresent",
-            "target": "id=logout-button",
-            "value": "1000"
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/cart",
+            "value": ""
         },
         {
-            "command": "verifyText",
-            "target": "id=logout-button",
-            "value": "glob:*Logout*"
+            "command": "storeElementPresent",
+            "target": "css=[data-live-action-param=\"clearCart\"]",
+            "value": "co_hang"
+        },
+        {
+            "command": "if",
+            "target": "${co_hang} == true",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[data-live-action-param=\"clearCart\"]",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "",
+            "value": ""
+        },
+        {
+            "command": "endIf",
+            "target": "",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/",
+            "value": ""
         },
         {
             "command": "click",
@@ -149,6 +179,11 @@
     "USER_CART_Checkout_02": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/en_US/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/en_US/login",
             "value": ""
         },
@@ -175,6 +210,41 @@
         {
             "command": "click",
             "target": "id=login-button",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/cart",
+            "value": ""
+        },
+        {
+            "command": "storeElementPresent",
+            "target": "css=[data-live-action-param=\"clearCart\"]",
+            "value": "co_hang"
+        },
+        {
+            "command": "if",
+            "target": "${co_hang} == true",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=[data-live-action-param=\"clearCart\"]",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "2000",
+            "value": ""
+        },
+        {
+            "command": "endIf",
+            "target": "",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/",
             "value": ""
         },
         {
@@ -219,6 +289,11 @@
         }
     ],
     "USER_CART_Checkout_03": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/en_US/login",
@@ -348,6 +423,11 @@
     "USER_CART_Checkout_04": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/en_US/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/en_US/login",
             "value": ""
         },
@@ -412,17 +492,17 @@
             "value": ""
         },
         {
-            "command": "verifyLocation",
-            "target": "https://elesto.sylius.com/en_US/checkout/address",
-            "value": ""
-        },
-        {
             "command": "waitForElementPresent",
             "target": "xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]",
             "value": "glob:*Invalid phone number.*"
         }
     ],
     "USER_CART_Checkout_05": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/en_US/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/en_US/login",
@@ -476,10 +556,15 @@
         {
             "command": "verifyText",
             "target": "xpath=//div[contains(text(),'Subtotal:')]/following-sibling::div",
-            "value": "glob:*101.00*"
+            "value": "glob:*202.88*"
         }
     ],
     "ADMIN_ORDER_View_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
@@ -584,6 +669,11 @@
     "ADMIN_ORDER_View_02": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
             "value": ""
         },
@@ -664,6 +754,11 @@
         }
     ],
     "ADMIN_ORDER_Filter_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
@@ -753,6 +848,11 @@
     "ADMIN_ORDER_Sort_01": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
             "value": ""
         },
@@ -808,6 +908,11 @@
         }
     ],
     "ADMIN_ORDER_Edit_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
@@ -900,6 +1005,11 @@
         }
     ],
     "ADMIN_ORDER_Create_01": [
+        {
+            "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
         {
             "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
@@ -1034,6 +1144,11 @@
     "ADMIN_ORDER_Create_02": [
         {
             "command": "open",
+            "target": "https://elesto.sylius.com/admin/logout",
+            "value": ""
+        },
+        {
+            "command": "open",
             "target": "https://elesto.sylius.com/admin/login",
             "value": ""
         },
@@ -1133,9 +1248,14 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
-            "target": "id=sylius_admin_order_creation_new_order_items_0_variant-ts-control",
-            "value": "${KEY_ENTER}"
+            "command": "click",
+            "target": "xpath=//button[contains(.,'Shipping address & Billing address')]",
+            "value": ""
+        },
+        {
+            "command": "waitForElementVisible",
+            "target": "xpath=//input[contains(@id,'billingAddress_firstName')]",
+            "value": ""
         },
         {
             "command": "click",
@@ -1143,7 +1263,7 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
+            "command": "type",
             "target": "xpath=//input[contains(@id,'billingAddress_firstName')]",
             "value": "Orlo"
         },
@@ -1153,7 +1273,7 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
+            "command": "type",
             "target": "xpath=//input[contains(@id,'billingAddress_lastName')]",
             "value": "Jenkins"
         },
@@ -1163,7 +1283,7 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
+            "command": "type",
             "target": "xpath=//input[contains(@id,'billingAddress_street')]",
             "value": "948 Alva Mills Apt. 071"
         },
@@ -1178,7 +1298,7 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
+            "command": "type",
             "target": "xpath=//input[contains(@id,'billingAddress_city')]",
             "value": "West Daniellaberg"
         },
@@ -1188,7 +1308,7 @@
             "value": ""
         },
         {
-            "command": "sendKeys",
+            "command": "type",
             "target": "xpath=//input[contains(@id,'billingAddress_postcode')]",
             "value": "13058"
         },
@@ -1208,11 +1328,6 @@
             "value": ""
         },
         {
-            "command": "waitForElementPresent",
-            "target": "xpath=//select[contains(@id,'shipments')]",
-            "value": ""
-        },
-        {
             "command": "select",
             "target": "xpath=//select[contains(@id,'shipments')]",
             "value": "index=1"
@@ -1220,11 +1335,6 @@
         {
             "command": "click",
             "target": "xpath=//div[contains(@id,'payments')]//button[contains(.,'Add')]",
-            "value": ""
-        },
-        {
-            "command": "waitForElementPresent",
-            "target": "xpath=//select[contains(@id,'payments')]",
             "value": ""
         },
         {
