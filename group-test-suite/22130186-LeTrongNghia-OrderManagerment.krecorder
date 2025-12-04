@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>ADMIN_Order_Management</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_View_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/logout</option><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>xpath=//button[contains(.,'Login')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Number')]<datalist><option>xpath=//th[contains(.,'Number')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Date')]<datalist><option>xpath=//th[contains(.,'Date')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Customer')]<datalist><option>xpath=//th[contains(.,'Customer')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Channel')]<datalist><option>xpath=//th[contains(.,'Channel')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'State')]<datalist><option>xpath=//th[contains(.,'State')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Payment state')]<datalist><option>xpath=//th[contains(.,'Payment State')]</option><option>xpath=//th[contains(.,'Payment state')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Shipping state')]<datalist><option>xpath=//th[contains(.,'Shipping State')]</option><option>xpath=//th[contains(.,'Shipping state')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Total')]<datalist><option>xpath=//th[contains(.,'Total')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Currency')]<datalist><option>xpath=//th[contains(.,'Currency')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//th[contains(.,'Action')]<datalist><option>xpath=//th[contains(.,'Action')]</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>css=.accordion-button<datalist><option>css=.accordion-button</option></datalist></td><td>glob:*Filters*</td></tr>
+<tr><td>verifyText</td><td>css=.card-footer<datalist><option>css=.card-footer</option></datalist></td><td>glob:*Showing*to*entries*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_View_02</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>xpath=//button[contains(.,'Login')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(//a[@data-bs-title='Show'])[1]<datalist><option>xpath=(//a[@data-bs-title='Show'])[1]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Items')]<datalist><option>xpath=//th[contains(.,'Number')]</option><option>xpath=//div[@class='card-title'][contains(.,'Items')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Summary')]<datalist><option>xpath=//th[contains(.,'Date')]</option><option>xpath=//div[@class='card-title'][contains(.,'Summary')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Payments')]<datalist><option>xpath=//th[contains(.,'Customer')]</option><option>xpath=//div[@class='card-title'][contains(.,'Payments')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Shipments')]<datalist><option>xpath=//th[contains(.,'Total')]</option><option>xpath=//div[@class='card-title'][contains(.,'Shipments')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Details')]<datalist><option>css=.accordion-button</option><option>xpath=//div[@class='card-title'][contains(.,'Details')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//strong[contains(.,'Order date:')]<datalist><option>css=.card-footer</option><option>xpath=//strong[contains(.,'Order date:')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//div[@class='card-title'][contains(.,'Customer')]<datalist><option>xpath=//div[@class='card-title'][contains(.,'Customer')]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_Filter_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>xpath=//button[contains(.,'Login')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=.accordion-button<datalist><option>css=.accordion-button</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>id=criteria_state<datalist><option>id=criteria_state</option></datalist></td><td>label=New</td></tr>
+<tr><td>type</td><td>id=criteria_date_from_date<datalist><option>id=criteria_date_from_date</option></datalist></td><td>2025-01-01</td></tr>
+<tr><td>type</td><td>id=criteria_date_to_date<datalist><option>id=criteria_date_to_date</option></datalist></td><td>2025-11-11</td></tr>
+<tr><td>clickAndWait</td><td>css=button[type='submit'].btn-primary<datalist><option>xpath=//button[contains(.,'Filter')]</option><option>css=button[type='submit'].btn-primary</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>glob:*criteria*state*<datalist><option>glob:*criteria*state*</option></datalist></td><td></td></tr>
+<tr><td>verifyValue</td><td>id=criteria_state<datalist><option>id=criteria_state</option></datalist></td><td>new</td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//span[@class='badge bg-blue-lt'][contains(.,'New')]<datalist><option>xpath=//span[@class='badge bg-blue-lt'][contains(.,'New')]</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>css=.card-footer<datalist><option>css=.card-footer</option></datalist></td><td>glob:*Showing*of*entries*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_Sort_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>xpath=//button[contains(.,'Login')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>link=Total<datalist><option>css=.accordion-button</option><option>link=Total</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>glob:*sorting*total*<datalist><option>glob:*sorting*total*</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>css=th.sorted.sylius-table-column-total<datalist><option>css=th.sorted.sylius-table-column-total</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_Edit_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>xpath=//button[contains(.,'Login')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(//a[@data-bs-title='Show'])[1]<datalist><option>xpath=(//a[@data-bs-title='Show'])[1]</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>link=Edit addresses<datalist><option>link=Edit addresses</option><option>xpath=//a[contains(@href, '/edit')]</option></datalist></td><td></td></tr>
+<tr><td>runScript</td><td>document.getElementById('sylius_admin_order_billingAddress_street').value = ''<datalist><option>document.getElementById('sylius_admin_order_billingAddress_street').value = ''</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_billingAddress_street<datalist><option>id=sylius_admin_order_billingAddress_street</option></datalist></td><td>246 Vo Van Ngan, Ho Chi Minh City</td></tr>
+<tr><td>click</td><td>css=.card-header<datalist><option>css=.card-header</option></datalist></td><td></td></tr>
+<tr><td>fireEvent</td><td>id=sylius_admin_order_billingAddress_street<datalist><option>id=sylius_admin_order_billingAddress_street</option></datalist></td><td>change</td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Update')]<datalist><option>xpath=//button[contains(.,'Update')]</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>css=.alert-success<datalist><option>css=.alert-success</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>css=.alert-description<datalist><option>css=.alert-description</option></datalist></td><td>Order has been successfully updated.</td></tr>
+<tr><td>verifyText</td><td>xpath=//address<datalist><option>xpath=//address</option></datalist></td><td>glob:*246 Vo Van Ngan*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_Create_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/logout</option><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>xpath=//button[contains(.,'Login')]</option><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Create<datalist><option>link=Create</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option><option>https://elesto.sylius.com/admin/orders/</option></datalist></td><td>shop@example.com</td></tr>
+<tr><td>pause</td><td>2000<datalist><option>2000</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option><option>xpath=//th[contains(.,'Number')]</option></datalist></td><td>${KEY_DOWN}</td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option><option>xpath=//th[contains(.,'Date')]</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Next')]<datalist><option>xpath=//button[contains(.,'Next')]</option><option>xpath=//th[contains(.,'Customer')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='items']//button[contains(.,'Add')]<datalist><option>xpath=//div[@id='items']//button[contains(.,'Add')]</option><option>xpath=//th[contains(.,'Total')]</option><option>id=sylius_admin_order_creation_new_order_items_add</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id,'quantity')]<datalist><option>xpath=//input[contains(@id,'quantity')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'quantity')]<datalist><option>xpath=//input[contains(@id,'quantity')]</option><option>css=.accordion-button</option><option>id=sylius_admin_order_creation_new_order_items_0_quantity</option></datalist></td><td>1</td></tr>
+<tr><td>type</td><td>xpath=//select[contains(@id,'variant')]/following-sibling::div//input<datalist><option>xpath=//select[contains(@id,'variant')]/following-sibling::div//input</option><option>css=.card-footer</option><option>id=sylius_admin_order_creation_new_order_items_0_variant-ts-control</option></datalist></td><td>QIX PowerMax model 4D5E6F</td></tr>
+<tr><td>pause</td><td>2000<datalist><option>2000</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_creation_new_order_items_0_variant-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_items_0_variant-ts-control</option><option>css=.pagination</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Create')]<datalist><option>3000</option><option>xpath=//input[contains(@id,'billingAddress_postcode')]</option><option>xpath=//button[contains(.,'Create')]</option></datalist></td><td>change</td></tr>
+<tr><td>verifyElementPresent</td><td>css=.alert-danger<datalist><option>id=sylius_admin_order_creation_new_order_shipments_add</option><option>css=body</option><option>css=.alert-danger</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>css=.alert-title<datalist><option>id=sylius_admin_order_creation_new_order_shipments_0_method</option><option>3000</option><option>css=.alert-title</option></datalist></td><td>Error</td></tr>
+<tr><td>verifyText</td><td>css=.text-secondary<datalist><option>css=h1</option><option>xpath=//select[contains(@id,'payments')]</option><option>css=.text-secondary</option></datalist></td><td>This form contains errors.</td></tr>
+<tr><td>verifyText</td><td>xpath=//div[contains(@class,'invalid-feedback')]<datalist><option>css=body</option><option>xpath=//button[contains(.,'Create')]</option><option>xpath=//div[contains(@class,'invalid-feedback')]</option></datalist></td><td>glob:*Please enter*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">ADMIN_ORDER_Create_02</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/logout<datalist><option>https://elesto.sylius.com/admin/login</option><option>https://elesto.sylius.com/en_US/</option><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/admin/logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist><option>https://elesto.sylius.com/admin/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Login')]<datalist><option>xpath=//button[contains(.,'Login')]</option><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]<datalist><option>xpath=//span[@class='nav-link-title'][contains(.,'Sales')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Orders<datalist><option>link=Orders</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Create<datalist><option>link=Create</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option><option>https://elesto.sylius.com/admin/orders/</option></datalist></td><td>shop@example.com</td></tr>
+<tr><td>pause</td><td>2000<datalist><option>2000</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option><option>xpath=//th[contains(.,'Number')]</option></datalist></td><td>${KEY_DOWN}</td></tr>
+<tr><td>sendKeys</td><td>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control<datalist><option>id=sylius_admin_order_creation_new_order_customer_select_customer-ts-control</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option><option>xpath=//th[contains(.,'Date')]</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Next')]<datalist><option>xpath=//button[contains(.,'Next')]</option><option>xpath=//th[contains(.,'Customer')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='items']//button[contains(.,'Add')]<datalist><option>xpath=//div[@id='items']//button[contains(.,'Add')]</option><option>xpath=//th[contains(.,'Total')]</option><option>id=sylius_admin_order_creation_new_order_items_add</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id,'quantity')]<datalist><option>xpath=//input[contains(@id,'quantity')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'quantity')]<datalist><option>xpath=//input[contains(@id,'quantity')]</option><option>css=.accordion-button</option><option>id=sylius_admin_order_creation_new_order_items_0_quantity</option></datalist></td><td>1</td></tr>
+<tr><td>type</td><td>xpath=//select[contains(@id,'variant')]/following-sibling::div//input<datalist><option>xpath=//select[contains(@id,'variant')]/following-sibling::div//input</option><option>css=.card-footer</option><option>id=sylius_admin_order_creation_new_order_items_0_variant-ts-control</option></datalist></td><td>QIX PowerMax model 4D5E6F</td></tr>
+<tr><td>pause</td><td>2000<datalist><option>2000</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[contains(.,'Shipping address & Billing address')]<datalist><option>xpath=//button[contains(.,'Shipping address & Billing address')]</option></datalist></td><td></td></tr>
+<tr><td>waitForElementVisible</td><td>xpath=//input[contains(@id,'billingAddress_firstName')]<datalist><option>xpath=//input[contains(@id,'billingAddress_firstName')]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//input[contains(@id,'billingAddress_firstName')]<datalist><option>3000</option><option>xpath=//input[contains(@id,'billingAddress_postcode')]</option><option>xpath=//button[contains(.,'Create')]</option><option>xpath=//input[contains(@id,'billingAddress_firstName')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'billingAddress_firstName')]<datalist><option>id=sylius_admin_order_creation_new_order_shipments_add</option><option>css=body</option><option>css=.alert-danger</option><option>xpath=//input[contains(@id,'billingAddress_firstName')]</option></datalist></td><td>Orlo</td></tr>
+<tr><td>click</td><td>xpath=//input[contains(@id,'billingAddress_lastName')]<datalist><option>id=sylius_admin_order_creation_new_order_shipments_0_method</option><option>3000</option><option>css=.alert-title</option><option>xpath=//input[contains(@id,'billingAddress_lastName')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'billingAddress_lastName')]<datalist><option>css=h1</option><option>xpath=//select[contains(@id,'payments')]</option><option>css=.text-secondary</option><option>xpath=//input[contains(@id,'billingAddress_lastName')]</option></datalist></td><td>Jenkins</td></tr>
+<tr><td>click</td><td>xpath=//input[contains(@id,'billingAddress_street')]<datalist><option>css=body</option><option>xpath=//button[contains(.,'Create')]</option><option>xpath=//div[contains(@class,'invalid-feedback')]</option><option>xpath=//input[contains(@id,'billingAddress_street')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'billingAddress_street')]<datalist><option>xpath=//input[contains(@id,'billingAddress_street')]</option></datalist></td><td>948 Alva Mills Apt. 071</td></tr>
+<tr><td>select</td><td>xpath=//select[contains(@id,'billingAddress_countryCode')]<datalist><option>xpath=//select[contains(@id,'billingAddress_countryCode')]</option></datalist></td><td>label=Poland</td></tr>
+<tr><td>click</td><td>xpath=//input[contains(@id,'billingAddress_city')]<datalist><option>xpath=//input[contains(@id,'billingAddress_city')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'billingAddress_city')]<datalist><option>xpath=//input[contains(@id,'billingAddress_city')]</option></datalist></td><td>West Daniellaberg</td></tr>
+<tr><td>click</td><td>xpath=//input[contains(@id,'billingAddress_postcode')]<datalist><option>xpath=//input[contains(@id,'billingAddress_postcode')]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[contains(@id,'billingAddress_postcode')]<datalist><option>xpath=//input[contains(@id,'billingAddress_postcode')]</option></datalist></td><td>13058</td></tr>
+<tr><td>click</td><td>css=body<datalist><option>css=body</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>3000<datalist><option>xpath=//th[contains(.,'Customer')]</option><option>3000</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[contains(@id,'shipments')]//button[contains(.,'Add')]<datalist><option>xpath=//div[contains(@id,'shipments')]//button[contains(.,'Add')]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>xpath=//select[contains(@id,'shipments')]<datalist><option>xpath=//select[contains(@id,'shipments')]</option></datalist></td><td>index=1</td></tr>
+<tr><td>click</td><td>xpath=//div[contains(@id,'payments')]//button[contains(.,'Add')]<datalist><option>xpath=//div[contains(@id,'payments')]//button[contains(.,'Add')]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>xpath=//select[contains(@id,'payments')]<datalist><option>xpath=//select[contains(@id,'payments')]</option></datalist></td><td>label=Cash on Delivery</td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Create')]<datalist><option>xpath=//button[contains(.,'Create')]</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>glob:*/preview<datalist><option>glob:*/preview</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>xpath=//button[contains(.,'Confirm')]<datalist><option>xpath=//th[contains(.,'Customer')]</option><option>xpath=//button[contains(.,'Confirm')]</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>css=h1<datalist><option>css=h1</option></datalist></td><td>glob:*Success*</td></tr>
+</tbody></table>
+</body>
+</html>
