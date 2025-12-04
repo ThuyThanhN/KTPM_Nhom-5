@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>USER_ACTION</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_001</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td>Monexel True Wireless Wireless Headphones model_11227027C89682</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a<datalist><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>xpath=//*[@id="search_results"]/div[1]</option></datalist></td><td>Monexel True Wireless Wireless Headphones model_11227027C89682</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_002</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist></datalist></td><td>Wireless</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist></datalist></td><td></td></tr>
+<tr><td>storeText</td><td>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a<datalist><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option></datalist></td><td>product1</td></tr>
+<tr><td>storeText</td><td>//*[@id="search_results"]/div[2]/div[1]/div[1]/div[1]/a<datalist><option>//*[@id="search_results"]/div[2]/div[1]/div[1]/div[1]/a</option></datalist></td><td>product2</td></tr>
+<tr><td>verifyEval</td><td>storedVars['product1'].includes("Wireless")<datalist><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>storedVars['product1'].includes("Wireless")</option></datalist></td><td>true</td></tr>
+<tr><td>verifyEval</td><td>storedVars['product2'].includes("Wireless")<datalist><option>storedVars['product1'].includes("Wireless")</option><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>storedVars['product2'].includes("Wireless")</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_003</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td>NoProduct</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
+<tr><td>storeText</td><td>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]<datalist><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option><option>/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>xpath=//*[@id="search_results"]/div[1]</option><option>/html/body/div[1]/div[6]/div[2]/div[2]/div[2]/text()</option><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]/text()</option></datalist></td><td>Info</td></tr>
+<tr><td>verifyText</td><td>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]<datalist><option>${Info}</option><option>"${Info}"</option><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option></datalist></td><td>*Info*There are no results to display*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_004</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td> monexel true wireless wireless headphones model_11227027C89682</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a<datalist><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>xpath=//*[@id="search_results"]/div[1]</option></datalist></td><td>Monexel True Wireless Wireless Headphones model_11227027C89682</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_005</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Official Sylius Plus Demo with B2B, RFQ, Multi-Inventory & RBAC'])[2]/following::*[name()='svg'][2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Official Sylius Plus Demo with B2B, RFQ, Multi-Inventory & RBAC'])[2]/following::*[name()='svg'][2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='As customer'])[1]/following::*[name()='svg'][2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::*[name()='svg'][4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::*[name()='svg'][4]</option><option>css=#bitbag_elasticsearch_search_box_search > svg.icon</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>https://elesto.sylius.com/en_US/<datalist><option>xpath=//*[@id="search_results"]/div[1]/div[1]/div[1]/div[1]/a</option><option>xpath=//*[@id="search_results"]/div[1]</option><option>https://elesto.sylius.com/en_US/</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_006</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td>🙂</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]<datalist><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option><option>${Info}</option><option>"${Info}"</option></datalist></td><td>*Info*There are no results to display*</td></tr>
+</tbody></table>
+</body>
+</html>
