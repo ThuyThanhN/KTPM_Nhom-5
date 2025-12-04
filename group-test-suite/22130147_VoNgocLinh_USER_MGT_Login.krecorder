@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>22130147_VoNgocLinh_USER_MGT_Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_MGT_Login</td></tr>
+</thead>
+<tbody>
+<tr><td>loadVars</td><td>login.csv<datalist><option>login.csv</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=login-page-button<datalist><option>id=login-page-button</option><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//a[@id='login-page-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Official Sylius Plus Demo with B2B, RFQ, Multi-Inventory & RBAC'])[2]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='As customer'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//div[2]/a</option><option>css=#login-page-button</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=_username<datalist><option>id=_username</option><option>name=_username</option><option>xpath=//input[@id='_username']</option><option>xpath=//div/div/input</option><option>css=#_username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_username<datalist><option>id=_username</option><option>name=_username</option><option>xpath=//input[@id='_username']</option><option>xpath=//div/div/input</option><option>css=#_username</option></datalist></td><td>${username}</td></tr>
+<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>${password}</td></tr>
+<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>endLoadVars</td><td><datalist></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
