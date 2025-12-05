@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>22130162 - TuGiaMan - Option Management</title>
+<title>22130162-TuGiaMan-OptionManagement</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Add_01</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Create_01</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -35,7 +35,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Add_02</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Create_02</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -57,7 +57,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Add_03</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Create_03</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -78,7 +78,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Add_04</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Create_04</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -99,7 +99,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Edit_05</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Edit_05</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -119,7 +119,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Edit_06</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Edit_06</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -136,7 +136,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Edit_07</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Edit_07</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -152,7 +152,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Delete_08</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Delete_08</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -167,7 +167,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Delete_09</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Delete_09</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -184,7 +184,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Filter_10</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Filter_10</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -200,7 +200,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Filter_11</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Filter_11</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -217,7 +217,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Option_MGT_Filter_12</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">OPTION_MGT_Filter_12</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
