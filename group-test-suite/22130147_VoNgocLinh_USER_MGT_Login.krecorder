@@ -18,6 +18,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>123</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_1.png<datalist><option>user_mgt_login_1.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -31,6 +32,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td>sylius</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_2.png<datalist><option>u</option><option>user_mgt_login_2</option><option>user_mgt_login_2.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -44,6 +46,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>perfect</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_3.png<datalist><option>user_mgt_login_3</option><option>user_mgt_login_3.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -57,6 +60,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>$#</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_4.png<datalist><option>user_mgt_login_4</option><option>user_mgt_login_4.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -70,6 +74,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id_password</option><option>id=_password</option></datalist></td><td>sylius</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_5.png<datalist><option>user_mgt_login_5</option><option>user_mgt_login_5.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -83,6 +88,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_6.png<datalist><option>user_mgt_login_6</option><option>user_mgt_login_6.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -96,6 +102,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_7.png<datalist><option>user_mgt_login_7</option><option>user_mgt_login_7.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
@@ -109,6 +116,7 @@
 <tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td>sylius</td></tr>
 <tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_mgt_login_8.png<datalist><option>user_mgt_login_8</option><option>user_mgt_login_8.png</option></datalist></td><td></td></tr>
 </tbody></table>
 </body>
 </html>
