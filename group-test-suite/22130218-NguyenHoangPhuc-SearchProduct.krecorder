@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>USER_ACTION</title>
+<title>22130218-NguyenHoangPhuc-SearchProduct</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_001</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_01</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -19,7 +19,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_002</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_02</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist></datalist></td><td></td></tr>
@@ -33,7 +33,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_003</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_03</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -45,7 +45,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_004</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_04</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -56,7 +56,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_005</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_05</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
@@ -66,12 +66,23 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">USER_ACTION_search_006</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_06</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
 <tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td>🙂</td></tr>
+<tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]<datalist><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option><option>${Info}</option><option>"${Info}"</option></datalist></td><td>*Info*There are no results to display*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_SEARCH_07</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bitbag_elasticsearch_search_query<datalist><option>id=bitbag_elasticsearch_search_query</option><option>name=bitbag_elasticsearch_search[query]</option><option>xpath=//input[@id='bitbag_elasticsearch_search_query']</option><option>xpath=//div[@id='searchCollapse']/form/div/input</option><option>xpath=//input</option><option>css=#bitbag_elasticsearch_search_query</option></datalist></td><td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td></tr>
 <tr><td>submit</td><td>name=bitbag_elasticsearch_search<datalist><option>name=bitbag_elasticsearch_search</option></datalist></td><td></td></tr>
 <tr><td>verifyText</td><td>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]<datalist><option>xpath=/html/body/div[1]/div[6]/div[2]/div[2]/div[2]</option><option>${Info}</option><option>"${Info}"</option></datalist></td><td>*Info*There are no results to display*</td></tr>
 </tbody></table>

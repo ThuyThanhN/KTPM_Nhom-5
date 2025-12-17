@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>PRODUCT_MGT</title>
+<title>22130218-NguyenHoangPhuc-ProductManagement</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_read_001</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_01</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/login<datalist></datalist></td><td></td></tr>
@@ -28,7 +28,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_create_001</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_02</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/products/<datalist><option>https://elesto.sylius.com/admin/products/</option></datalist></td><td></td></tr>
@@ -44,7 +44,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_create_002</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_03</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/products/<datalist><option>https://elesto.sylius.com/admin/products/</option></datalist></td><td></td></tr>
@@ -57,7 +57,28 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_update_001</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_04</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/products/<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[3]/following::*[name()='svg'][1]<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Simple product<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_code<datalist></datalist></td><td>02</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='side-nav']/div/button[6]<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_translations_en_US_name<datalist></datalist></td><td>Laptop DELL</td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_translations_en_US_slug<datalist></datalist></td><td>laptop-dell-700</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='side-nav']/div/button[2]<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_price<datalist></datalist></td><td>-100</td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_originalPrice<datalist></datalist></td><td>0</td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_minimumPrice<datalist></datalist></td><td>-99</td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]<datalist></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Report an issue'])[1]/following::h4[1]<datalist></datalist></td><td>Error</td></tr>
+<tr><td>verifyText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Error'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Error'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/preceding::div[1]</option><option>xpath=//*/text()[normalize-space(.)='This form contains errors.']/parent::*</option><option>xpath=//div[3]/div/div/div[2]/div</option><option>css=div.text-secondary</option></datalist></td><td>This form contains errors.</td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//button[@data-bs-target='#product-channel-pricing']//div[@class='tab-error' and text()='2']<datalist><option>xpath=//button[@data-bs-target='#product-channel-pricing']//div[@class='tab-error' and text()='3']</option><option>xpath=//button[@data-bs-target='#product-channel-pricing']//div[@class='tab-error' and text()='2']</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_05</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/products/<datalist><option>https://elesto.sylius.com/admin/products/</option></datalist></td><td></td></tr>
@@ -75,7 +96,27 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_delete_001</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_06</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/orders/<datalist><option>https://elesto.sylius.com/admin/orders/</option></datalist></td><td></td></tr>
+<tr><td>storeText</td><td>xpath=//table/tbody/tr[1]/td[1]/a<datalist><option>link=#000000764</option><option>xpath=//a[contains(text(),'#000000764')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf asdf'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf@asdf.df'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='#000000764']/parent::*</option><option>xpath=//a[contains(@href, '/admin/orders/1654')]</option><option>xpath=//td/a</option><option>css=a.fw-medium</option><option>/html/body/div[1]/div/div[3]/div/div[2]/div[2]/table/tbody/tr[1]/td[1]/a</option><option>xpath=//table/tbody/tr[1]/td[1]/a</option></datalist></td><td>OrderId</td></tr>
+<tr><td>click</td><td>link=${OrderId}<datalist><option>link=#000000764</option><option>xpath=//a[contains(text(),'#000000764')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf asdf'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf@asdf.df'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='#000000764']/parent::*</option><option>xpath=//a[contains(@href, '/admin/orders/1654')]</option><option>xpath=//td/a</option><option>css=a.fw-medium</option><option>link=${OrderId}</option></datalist></td><td></td></tr>
+<tr><td>storeText</td><td>xpath=//table//tr[1]/td[2]<datalist><option>xpath=/html/body/div[1]/div/div[3]/div/div/div[2]/div[1]/div[2]/table/tbody/tr/td[2]</option><option>xpath=//table//tr[1]/td[2]</option></datalist></td><td>UnitPrice</td></tr>
+<tr><td>click</td><td>xpath=//table/tbody/tr/td[1]/div/div[2]/div[1]/a<datalist><option>xpath=//table//td[1]//div[normalize-space()]</option><option>xpath=//table/tbody/tr/td[1]/div/div[2]/div[1]/a</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Edit<datalist><option>link=Edit</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Proxima Circuits Quadcopter model A288C1'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Proxima Circuits Quadcopter model A288C1'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='View in store'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Edit']/parent::*</option><option>xpath=//a[contains(@href, '/admin/products/714/edit')]</option><option>xpath=//div/div/div[2]/div/div/div[2]/a</option><option>css=a.btn</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='side-nav']/div/button[2]<datalist><option>xpath=//div[@id='side-nav']/div/button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Update'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Taxes'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Channel pricings']/parent::*</option><option>xpath=//form/div/div/div/div/button[2]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_price<datalist><option>id=sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_price</option><option>name=sylius_admin_product[variant][channelPricings][COMM_MODULE_SHOP][price]</option><option>xpath=//input[@id='sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_price']</option><option>xpath=//div[@id='channel-pricing-COMM_MODULE_SHOP']/div/div[2]/div/div/div/input</option><option>xpath=//div[3]/div/div/div/div[2]/div/div/div/input</option><option>css=#sylius_admin_product_variant_channelPricings_COMM_MODULE_SHOP_price</option></datalist></td><td>53</td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Channel pricings'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Update']/parent::*</option><option>xpath=//div[2]/div/button[2]</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Report an issue'])[1]/following::h4[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Report an issue'])[1]/following::h4[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Join Slack'])[1]/following::h4[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Product has been successfully updated.'])[1]/preceding::h4[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::h4[1]</option><option>xpath=//*/text()[normalize-space(.)='Success']/parent::*</option><option>xpath=//h4</option><option>css=h4.alert-heading</option></datalist></td><td>Success</td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Success'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Success'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Report an issue'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[2]/preceding::div[1]</option><option>xpath=//*/text()[normalize-space(.)='Product has been successfully updated.']/parent::*</option><option>xpath=//div/div/div/div/div[2]/div</option><option>css=div.alert-description</option></datalist></td><td>Product has been successfully updated.</td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/admin/orders/<datalist><option>https://elesto.sylius.com/admin/orders/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=${OrderId}<datalist><option>link=${OrderId}</option><option>link=#000000764</option><option>xpath=//a[contains(text(),'#000000764')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf asdf'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='asdf@asdf.df'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='#000000764']/parent::*</option><option>xpath=//a[contains(@href, '/admin/orders/1654')]</option><option>xpath=//td/a</option><option>css=a.fw-medium</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//table//tr[1]/td[2]<datalist><option>xpath=/html/body/div[1]/div/div[3]/div/div/div[2]/div[1]/div[2]/table/tbody/tr/td[2]</option><option>xpath=//table//tr[1]/td[2]</option></datalist></td><td>${UnitPrice}</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_07</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/products/<datalist><option>https://elesto.sylius.com/admin/products/</option></datalist></td><td></td></tr>
@@ -90,7 +131,7 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_delete_002</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="">PRODUCT_MGT_08</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://elesto.sylius.com/admin/orders/<datalist><option>https://elesto.sylius.com/admin/orders/</option><option>https://elesto.sylius.com/admin/orders/</option></datalist></td><td></td></tr>
