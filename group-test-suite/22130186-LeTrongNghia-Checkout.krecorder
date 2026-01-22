@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>USER_Checkout</title>
+<title>22130186-LeTrongNghia-Checkout</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
@@ -11,13 +11,7 @@
 <tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_01</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/logout<datalist><option>https://elesto.sylius.com/en_US/login</option><option>https://elesto.sylius.com/en_US/logout</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/login<datalist><option>https://elesto.sylius.com/en_US/login</option></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>shop@example.com</td></tr>
-<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
-<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/cart<datalist><option>https://elesto.sylius.com/en_US/cart</option></datalist></td><td></td></tr>
 <tr><td>storeElementPresent</td><td>css=[data-live-action-param="clearCart"]<datalist><option>css=[data-live-action-param="clearCart"]</option></datalist></td><td>co_hang</td></tr>
 <tr><td>if</td><td>${co_hang} == true<datalist><option>${co_hang} == true</option></datalist></td><td></td></tr>
@@ -52,13 +46,7 @@
 <tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_02</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/logout<datalist><option>https://elesto.sylius.com/en_US/logout</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/login<datalist><option>https://elesto.sylius.com/en_US/login</option></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>shop@example.com</td></tr>
-<tr><td>click</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td>sylius</td></tr>
-<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>open</td><td>https://elesto.sylius.com/en_US/cart<datalist><option>https://elesto.sylius.com/en_US/cart</option></datalist></td><td></td></tr>
 <tr><td>storeElementPresent</td><td>css=[data-live-action-param="clearCart"]<datalist><option>xpath=//form[contains(@action, 'remove')]</option><option>css=[data-live-action-param="clearCart"]</option></datalist></td><td>co_hang</td></tr>
 <tr><td>if</td><td>${co_hang} == true<datalist><option>${item_count} > 0</option><option>${co_hang} == true</option></datalist></td><td></td></tr>
@@ -74,19 +62,14 @@
 <tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
 <tr><td>waitForElementPresent</td><td>css=.alert.alert-info<datalist><option>css=.alert.alert-info</option></datalist></td><td></td></tr>
 <tr><td>verifyText</td><td>css=.alert.alert-info<datalist><option>css=.alert.alert-info</option><option>class="alert alert-info"</option></datalist></td><td>glob:*Your cart is empty*</td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_cart_02.png<datalist><option>user_cart_02.png</option><option>edit_profile_01.png</option><option>login${username}.png</option><option>RegCus_01.png</option><option>pass_change_01.png</option><option>search_01.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
 <tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_03</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/logout<datalist><option>https://elesto.sylius.com/en_US/logout</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/login<datalist><option>https://elesto.sylius.com/en_US/login</option></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=_username<datalist><option>id=_username</option><option>name=_username</option><option>xpath=//input[@id='_username']</option><option>xpath=//div/div/input</option><option>css=#_username</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>shop@example.com</td></tr>
-<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td>sylius</td></tr>
-<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::*[name()='svg'][3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/following::*[name()='svg'][3]</option><option>css=button.btn.btn-icon.btn-transparent.px-0.position-relative > svg.icon-sm</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>link=Proceed to checkout<datalist><option>link=Proceed to checkout</option><option>xpath=//a[contains(text(),'Proceed to checkout')]</option><option>xpath=//a[@type='button']</option><option>xpath=//div[@id='offcanvasCart']/div[4]/div/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[4]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subtotal:'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit Cart'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Send request for quote'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Proceed to checkout']/parent::*</option><option>xpath=//a[contains(@href, '/en_US/checkout/')]</option><option>xpath=//div[3]/div[4]/div/div/a</option><option>css=a.btn.b2b-btn-green.d-flex.justify-content-center.align-items-center.gap-2</option></datalist></td><td></td></tr>
@@ -106,19 +89,14 @@
 <tr><td>verifyText</td><td>xpath=//select[contains(@id, 'countryCode')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//select[contains(@id, 'countryCode')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>css=.invalid-feedback d-block</option><option>css=.invalid-feedback.d-block</option><option>xpath=//input[contains(@id, 'street')]/following::div[contains(@class, 'invalid-feedback')][1]</option></datalist></td><td>glob:*Please select country.*</td></tr>
 <tr><td>verifyText</td><td>xpath=//input[contains(@id, 'city')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'city')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>css=.invalid-feedback d-block</option><option>css=.invalid-feedback.d-block</option></datalist></td><td>glob:*Please enter city.*</td></tr>
 <tr><td>verifyText</td><td>xpath=//input[contains(@id, 'postcode')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'postcode')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>css=.invalid-feedback d-block</option><option>css=.invalid-feedback.d-block</option></datalist></td><td>glob:*Please enter postcode.*</td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_cart_03.png<datalist><option>user_cart_02.png</option><option>edit_profile_01.png</option><option>login${username}.png</option><option>RegCus_01.png</option><option>pass_change_01.png</option><option>search_01.png</option><option>user_cart_03.png</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
 <tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_04</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/logout<datalist><option>https://elesto.sylius.com/en_US/logout</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/login<datalist><option>https://elesto.sylius.com/en_US/login</option></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>shop@example.com</td></tr>
-<tr><td>click</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_password<datalist><option>id=_password</option><option>name=_password</option><option>xpath=//input[@id='_password']</option><option>xpath=//div[2]/div/input</option><option>css=#_password</option></datalist></td><td>sylius</td></tr>
-<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option><option>xpath=//button[@id='login-button']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Make your business buying easy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Verified Business Network'])[1]/preceding::button[1]</option><option>xpath=//div/div/div/form/div[2]/button</option><option>css=#login-button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
@@ -133,18 +111,77 @@
 <tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_05</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/logout<datalist><option>https://elesto.sylius.com/en_US/logout</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://elesto.sylius.com/en_US/login<datalist><option>https://elesto.sylius.com/en_US/login</option></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_username<datalist><option>id=_username</option></datalist></td><td>shop@example.com</td></tr>
-<tr><td>click</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td></td></tr>
-<tr><td>type</td><td>id=_password<datalist><option>id=_password</option></datalist></td><td>sylius</td></tr>
-<tr><td>click</td><td>id=login-button<datalist><option>id=login-button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€67.37'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€57.26'])[1]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding'])[6]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='in stock'])[10]/preceding::span[4]</option><option>xpath=//div[10]/div/div[2]/div/div[3]/div/div[4]/button/span/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.06'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.06'])[1]/following::span[2]</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
 <tr><td>waitForElementPresent</td><td>css=.text-end<datalist><option>css=.text-end</option></datalist></td><td></td></tr>
 <tr><td>verifyText</td><td>xpath=//div[contains(text(),'Subtotal:')]/following-sibling::div<datalist><option>css=.text-end</option><option>id=sylius-cart-grand-total</option><option>xpath=//div[contains(text(),'Subtotal:')]/following-sibling::div</option></datalist></td><td>glob:*202.88*</td></tr>
+<tr><td>captureEntirePageScreenshot</td><td>user_cart_05.png<datalist><option>user_cart_02.png</option><option>edit_profile_01.png</option><option>login${username}.png</option><option>RegCus_01.png</option><option>pass_change_01.png</option><option>search_01.png</option><option>user_cart_05.png</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_06</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>css=[data-model="addressId"]<datalist><option>css=[data-model="addressId"]</option><option>id=sylius_shop_checkout_address_shippingAddress_street</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>css=.form-control.form-select</option></datalist></td><td>value=8</td></tr>
+<tr><td>click</td><td>id=sylius_shop_checkout_address_shippingAddress_postcode<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_postcode</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_shop_checkout_address_shippingAddress_postcode<datalist><option>id=sylius_shop_checkout_address_shippingAddress_postcode</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_shop_checkout_address_shippingAddress_postcode<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_postcode</option></datalist></td><td>12345abc</td></tr>
+<tr><td>click</td><td>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100<datalist><option>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id, 'postcode')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>xpath=//input[contains(@id, 'postcode')]/following::div[contains(@class, 'invalid-feedback')][1]</option></datalist></td><td>glob:*Invalid Postcode*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_07</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>css=[data-model="addressId"]<datalist><option>css=[data-model="addressId"]</option><option>id=sylius_shop_checkout_address_shippingAddress_street</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>css=.form-control.form-select</option></datalist></td><td>value=8</td></tr>
+<tr><td>click</td><td>id=sylius_shop_checkout_address_shippingAddress_firstName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_shop_checkout_address_shippingAddress_firstName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_shop_checkout_address_shippingAddress_firstName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option></datalist></td><td>Nghia@@##</td></tr>
+<tr><td>click</td><td>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100<datalist><option>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]</option></datalist></td><td>glob:*Invalid characters*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_08</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>css=[data-model="addressId"]<datalist><option>css=[data-model="addressId"]</option><option>id=sylius_shop_checkout_address_shippingAddress_street</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>css=.form-control.form-select</option></datalist></td><td>value=8</td></tr>
+<tr><td>click</td><td>id=sylius_shop_checkout_address_shippingAddress_lastName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_shop_checkout_address_shippingAddress_lastName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_shop_checkout_address_shippingAddress_lastName<datalist><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option></datalist></td><td>Nghia@@##</td></tr>
+<tr><td>click</td><td>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100<datalist><option>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]</option></datalist></td><td>glob:*Invalid characters*</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_CART_Checkout_09</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://elesto.sylius.com/en_US/<datalist><option>https://elesto.sylius.com/en_US/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='€50.94'])[1]/following::span[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=[aria-label="cart button"]<datalist><option>css=[aria-label="cart button"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=a[href="/en_US/checkout/"]<datalist><option>css=a[href="/en_US/checkout/"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>css=[data-model="addressId"]<datalist><option>css=[data-model="addressId"]</option><option>id=sylius_shop_checkout_address_shippingAddress_street</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>id=sylius_shop_checkout_address_shippingAddress_countryCode</option><option>css=.form-control.form-select</option></datalist></td><td>value=8</td></tr>
+<tr><td>click</td><td>id=sylius_shop_checkout_address_shippingAddress_city<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option><option>id=sylius_shop_checkout_address_shippingAddress_city</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=sylius_shop_checkout_address_shippingAddress_city<datalist><option>id=sylius_shop_checkout_address_shippingAddress_phoneNumber</option><option>sylius_shop_checkout_address_billingAddress_postcode</option><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option><option>id=sylius_shop_checkout_address_shippingAddress_city</option></datalist></td><td></td></tr>
+<tr><td>sendKeys</td><td>id=sylius_shop_checkout_address_shippingAddress_city<datalist><option>id=sylius_shop_checkout_address_shippingAddress_firstName</option><option>id=sylius_shop_checkout_address_shippingAddress_lastName</option><option>id=sylius_shop_checkout_address_shippingAddress_city</option></datalist></td><td>123456</td></tr>
+<tr><td>click</td><td>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100<datalist><option>css=.btn.rounded-8.b2b-btn-green.btn-icon.w-100</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]<datalist><option>xpath=//input[contains(@id, 'phoneNumber')]/following::div[contains(@class, 'invalid-feedback')][1]</option><option>xpath=//input[contains(@id, 'firstName')]/following::div[contains(@class, 'invalid-feedback')][1]</option></datalist></td><td>glob:*City name cannot contain numbers*</td></tr>
 </tbody></table>
 </body>
 </html>
